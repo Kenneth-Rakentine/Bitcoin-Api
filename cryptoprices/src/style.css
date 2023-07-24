@@ -1,0 +1,60 @@
+
+/* .app{
+
+  background-color:black;
+} */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .contain{
+    display:block;
+    flex-wrap: wrap;
+    background-color: rgb(228, 222, 228);
+  }
+
+.headContainer{
+  flex-direction: column;
+}
+
+.headStyle{
+  align-self:center;
+  margin-right:-7px;
+  text-align: start;
+}
+
+  .srch{
+    height:20px;
+    align-self:center;
+    /* padding-left:-40px; */
+  /* border:solid rgb(187, 216, 187); */
+
+  }
+
+
+
+  .srchButton{
+    height:25px;
+    align-self:center;
+    /* padding-left:-40px; */
+    }
+
+    .srchButton:hover{
+      height:25px;
+      align-self:center;
+      cursor:pointer;
+      background-color:rgb(187, 216, 187);
+      outline:none;
+      }
+  
